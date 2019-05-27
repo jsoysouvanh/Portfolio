@@ -1,7 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://juliensoy.netlify.com/"
 languageCode = "en-us"
-title = "Mes Projets"
-subtitle = "Allo"
 theme = "hugo-theme-massively"
 
 [languages]
