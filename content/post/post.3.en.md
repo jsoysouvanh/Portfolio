@@ -1,6 +1,6 @@
 +++
-title = 'Slide Slide Little Penguin'
-slug = 'post1'
+title = 'Post3'
+slug = 'post3'
 image = 'images/pic03.jpg'
 description = 'Example of post with missing date property'
 disableComments = true

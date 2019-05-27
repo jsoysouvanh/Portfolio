@@ -1,8 +1,8 @@
 +++
 title = 'Slide Slide Little Penguin'
-slug = 'post1'
+slug = 'post'
 image = 'images/pic03.jpg'
-description = 'Example of post with missing date property'
+date = '2019-05-20T00:00:00'
 disableComments = true
 +++
 Example of post with missing date property.

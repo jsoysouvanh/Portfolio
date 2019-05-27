@@ -1,4 +1,16 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Mes Projets"
+subtitle = "Allo"
 theme = "hugo-theme-massively"
+
+[languages]
+[languages.fr]
+  languageName = "Français"
+  title = "Julien Soysouvanh"
+[languages.en]
+  languageName = "English"
+  title = "Julien Soysouvanh"
+[languages.jp]
+  languageName = "日本語"
+  title = "ソイスヴァン　ジュリアン"

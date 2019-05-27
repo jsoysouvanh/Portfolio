@@ -2,10 +2,6 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <nav id="nav">
     <ul class="links">
-        <li class="active"><a href='{{ "/" | relLangURL }}'>{{ .Site.Title }}</a></li>
-        {{ with $data.contactinfo }}
-        <li><a href='{{ "#footer" | relLangURL }}'>{{ i18n "NAV_CONTACT" . }}</a></li>
-        {{ end }}
         {{ if .IsTranslated }}
         {{ range .AllTranslations }}
         <li {{if eq ($.Site.Language) (.Language)}}class="active"{{end}}><a href='{{ .Permalink }}'>{{ .Language.LanguageName }}</a></li>
@@ -40,6 +36,12 @@
         {{ end }}
         {{ with .flickr }}
         <li><a href="{{ . }}" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
+        {{ end }}
+        {{ with .mail }}
+        <li><a href="mailto:{{ . }}" class="icon fa-envelope"><span class="label">Mail</span></a></li>
+        {{ end }}
+        {{ with .phone }}
+        <li><a href="tel:{{ . }}" class="icon fa-phone"><span class="label">Phone</span></a></li>
         {{ end }}
     </ul>
     {{ end }}
