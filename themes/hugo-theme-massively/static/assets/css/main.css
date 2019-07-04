@@ -4491,3 +4491,24 @@
 		}
 
 	}
+
+	img[src$='#center']
+	{
+	    display: block;
+	    margin: 0.7rem auto;
+	    max-width: 100%;
+	}
+
+	img[src$='#floatleft']
+	{
+	    float:left;
+	    margin: 0.7rem;
+	    max-width: 100%;
+	}
+
+	img[src$='#floatright']
+	{
+	    float:right;
+	    margin: 0.7rem;
+	    max-width: 100%;
+	}
