@@ -7,7 +7,7 @@
 [CONTACT_FORM_FIELD_MESSAGE]
   other = "信息"
 [CONTACT_FORM_FIELD_NAME]
-  other = "姓名"
+  other = "名前"
 [CONTACT_FORM_SUBMIT_SEND_MESSAGE]
   other = "发送信息"
 [CONTACT_PHONE]
@@ -23,9 +23,9 @@
 [NAV_CONTACT]
   other = "联系方式"
 [PAGINATION_NEXT]
-  other = "下一页"
+  other = "次"
 [PAGINATION_PREVIOUS]
-  other = "前一页"
+  other = "前"
 [SUB_TITLE]
   other = "私のプロジェクト"
 [YEAR]
