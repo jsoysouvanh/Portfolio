@@ -2,7 +2,7 @@
 title = "Turbo Engine"
 slug = "Turbo Engine"
 image = "TurboEngine/TurboEngineCover.png"
-description = "Réalisation d'un moteur de jeu vidéo 3D complet avec éditeur, et d'un jeu."
+description = "Réalisation d'un moteur de jeu vidéo 3D complet avec éditeur et d'un jeu de démonstration."
 date = 2019-06-13T15:19:20+02:00
 disableComments = true
 +++
@@ -45,9 +45,9 @@ Le Turbo Editor est un outil développé avec la librairie Qt. Il est composé d
 - Les paramètres de physique qui permettent de gérer et configurer différents layers de physique
 - Le loggeur
 - La game view
-- Les scene view, qui peuvent être ouvertes en 4 exemplaires pour visualiser la scène de différents points de vue
+- Les scene view, qui peuvent être ouvertes en 4 exemplaires simultanément pour éditer/visualiser la scène de différents points de vue
 
-On peut créer des scripts avec des template personnalisables ou les compiler d'un simple clic. Les scripts pourront par la suite être ajoutés aux entités de la scène, et les variables marquées comme "réfléchies" dans les scripts seront disponibles dans l'inspecteur.
+On peut créer des scripts avec des template personnalisables et les compiler d'un simple clic. Les scripts pourront par la suite être ajoutés aux entités de la scène, et les variables marquées comme "réfléchies" dans les scripts seront disponibles dans l'inspecteur.
 
 Voici un exemple de script (header) généré auquel on aurait ajouté quelques variables :
 
@@ -63,9 +63,6 @@ Voici un exemple de script (header) généré auquel on aurait ajouté quelques 
 // * This include should always be the last one. moving it will cause conflicts
 #include "Generated/TestScript.generatedhpp"
 
-/*
- * What is this class used for ? 
- */
 class [[ReflectedClass(Component)]] TestScript : public turbo::core::ecs::BehaviorComponent
 {
 	TURBO_CLASS_GENERATION()
@@ -82,8 +79,9 @@ class [[ReflectedClass(Component)]] TestScript : public turbo::core::ecs::Behavi
 		[[ReflectedAttr]]
 		RigidBody*	m_rigidBody;
 
+		//This attribute will not be shown in editor thanks to the attribute HiddenInEditor
 		[[ReflectedAttr, HiddenInEditor]]
-		TEfloat	m_hiddenAttribute;	//This attribute will not be shown in editor
+		TEfloat	m_hiddenAttribute;
 
 		#pragma endregion
 
@@ -92,29 +90,6 @@ class [[ReflectedClass(Component)]] TestScript : public turbo::core::ecs::Behavi
 		
 		virtual void init()	noexcept override;
 		virtual void update()	noexcept override;
-
-		#pragma endregion
-	
-	public:
-		#pragma region Constructors
-
-		TestScript() = default;
-		TestScript(TestScript const& in_copy) = default;
-		TestScript(TestScript&& in_move) = default;
-		~TestScript() = default;
-
-		#pragma endregion
-	
-		#pragma region Methods
-		
-		//...
-
-		#pragma endregion
-	
-		#pragma region Operators
-
-		TestScript& operator=(TestScript const& in_copy) = default;
-		TestScript& operator=(TestScript&& in_move) = default;
 
 		#pragma endregion
 };
