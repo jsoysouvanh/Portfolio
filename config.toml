@@ -1,14 +1,15 @@
 baseURL = "https://juliensoy.netlify.com/"
 languageCode = "en-us"
+DefaultContentLanguage = "fr"
 theme = "hugo-theme-massively"
 
 [languages]
-[languages.fr]
-  languageName = "Français"
-  title = "Julien Soysouvanh"
-[languages.en]
-  languageName = "English"
-  title = "Julien Soysouvanh"
-[languages.jp]
-  languageName = "日本語"
-  title = "ソイスヴァン　ジュリアン"
+	[languages.en]
+	  languageName = "English"
+	  title = "Julien Soysouvanh"
+	[languages.fr]
+	  languageName = "Français"
+	  title = "Julien Soysouvanh"
+	[languages.jp]
+	  languageName = "日本語"
+	  title = "ソイスヴァン　ジュリアン"
