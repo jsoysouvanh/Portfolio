@@ -11,7 +11,7 @@ disableComments = true
 - Effectif : 4 programmeurs
 - Délai : 5 mois
 - Technologies / Langages : Visual Studio 2017, Git, Trello, C++17, Python 3.7
-- Librairies : Qt, GLFW, PhysX, FMOD, nlohmann, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus
+- Librairies : Qt, GLFW, PhysX, FMOD, nlohmann json, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus
 
 ---
 
@@ -27,7 +27,7 @@ Ce projet de fin de deuxième année était constitué d'un ensemble de trois so
 
 ![TurboEngine logo](/TurboEngine/TurboEngineStamp.png#center)
 
-Le Turbo Engine est un moteur de jeu vidéo 3D pensé pour permettre un développement rapide et confortable à la manière des plus grands. Il implémente les fonctionnalités de base telles que la physique avec un système de layer flexible (PhysX 3.4), la gestion du son (FMOD), un éditeur de material, ou un rendu PBR agrémenté de quelques effets de post-process. Le système de réflection permet la sérialisation au format binaire (custom) ou texte (json via la librarire nlohmann). Grâce au hotreload, on peut ajouter et/ou modifier des scripts C++ utilisables par la suite en tant que component dans les entités de la scène. Le système de scripting C++ se veut agréable, et il suffit à l'utilisateur de spécifier certaines propriétés au dessus de ses variables pour les appliquer. Un outil tier développé en Python 3.7 parse les fichiers de scripts, puis génère des fichiers de métadonnées exploités par le moteur.
+Le Turbo Engine est un moteur de jeu vidéo 3D pensé pour permettre un développement rapide et confortable à la manière des plus grands. Il implémente les fonctionnalités de base telles que la physique avec un système de layer flexible (PhysX 3.4), la gestion du son (FMOD), un éditeur de material, ou un rendu PBR agrémenté de quelques effets de post-process. Le système de réflection permet la sérialisation au format binaire (custom) ou texte (json via la librairie nlohmann json). Grâce au hotreload, on peut ajouter et/ou modifier des scripts C++ utilisables par la suite en tant que component dans les entités de la scène. Le système de scripting C++ se veut agréable, et il suffit à l'utilisateur de spécifier certaines propriétés au dessus de ses variables pour les appliquer. Un outil tier développé en Python 3.7 parse les fichiers de scripts, puis génère des fichiers de métadonnées exploités par le moteur.
 
 #### Le Turbo Editor
 
@@ -43,7 +43,6 @@ Le Turbo Editor est un outil développé avec la librairie Qt. Il est composé d
 - Le Mixeur, qui permet de créer et de mixer différents canaux de sons
 - L'éditeur de material, pour créer et modifier les matérials à partir des shaders et textures du projet
 - Les paramètres de physique qui permettent de gérer et configurer différents layers de physique
-- Le loggeur
 - La game view
 - Les scene view, qui peuvent être ouvertes en 4 exemplaires simultanément pour éditer/visualiser la scène de différents points de vue
 
@@ -79,7 +78,7 @@ class [[ReflectedClass(Component)]] TestScript : public turbo::core::ecs::Behavi
 		[[ReflectedAttr]]
 		RigidBody*	m_rigidBody;
 
-		//This attribute will not be shown in editor thanks to the attribute HiddenInEditor
+		//This attribute will not be shown in the editor thanks to the HiddenInEditor attribute
 		[[ReflectedAttr, HiddenInEditor]]
 		TEfloat	m_hiddenAttribute;
 
