@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Turbo Engine"
 slug = "Turbo Engine"
 image = "TurboEngine/TurboEngineCover.png"
@@ -22,6 +22,10 @@ Ce projet de fin de deuxième année était constitué d'un ensemble de trois so
 - Développement d'un moteur de jeu vidéo
 - Développement d'un éditeur du moteur
 - Développement d'un jeu à l'aide de l'éditeur
+
+{{< youtube id="foICXHojFiI" >}}
+
+<p> </p>
 
 #### Le Turbo Engine
 
