@@ -3,7 +3,7 @@ title = 'Slide Slide Little Penguin'
 slug = 'SSLP'
 image = 'SSLP/SSLPScreen.jpg'
 description = "Réalisation d'un jeu mobile type Tiny Wings / Dune"
-date = '2019-05-20T00:00:00'
+date = '2019-05-18T00:00:00'
 disableComments = true
 +++
 
