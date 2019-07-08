@@ -5,7 +5,6 @@ date = "2018-11-28T00:00:00"
 image = 'Gladiator/GladiatorDemo.gif'
 description = "Développement d'un Battle Royal en arène"
 disableComments = true
-draft = true
 +++
 
 ## Détails

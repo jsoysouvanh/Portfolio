@@ -5,7 +5,6 @@ date = "2019-03-28T00:00:00"
 image = 'StellarPulse/StellarPulseLogo.png'
 description = "Développement d'un jeu de rythme shooter en VR"
 disableComments = true
-draft = true
 +++
 
 ## Détails
