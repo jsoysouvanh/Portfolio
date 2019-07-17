@@ -35,4 +35,4 @@ J'ai dans ce projet développé les features suivantes :
 - Le vaisseau HUD avec score et combos
 - L'intégration des sons et particules
 
-Stellar Pulse a été récompensé de deux prix (Prix du Gameplay et Prix du Jury) parmi 4 prix distribués (les deux autres étaient le prix technique et le prix de l'originalité) lors d'une journée de présentation de tous les jeux VR développés au cours cette session.
+Stellar Pulse a été récompensé de deux prix (Prix du Gameplay et Prix du Jury) parmi 4 prix distribués (les deux autres étaient le prix technique et le prix de l'originalité) lors d'une journée de présentation de tous les jeux VR développés au cours de cette session.
