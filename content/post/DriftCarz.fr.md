@@ -24,6 +24,8 @@ L'objectif de ce projet était de passer un jeu de course simple développé sou
 - Un chat disponible quand on a rejoint une room
 - Un système de leaderboard qui affiche le temps que chaque joueur a mis pour compléter la course avec un classement
 
+{{< youtube id="mVXk2ly4Lh4" >}}
+
 ---
 
 ## Contribution personnelle
