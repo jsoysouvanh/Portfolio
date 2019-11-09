@@ -9,10 +9,10 @@ draft = true
 +++
 
 ## Details
-- Headcount : 4 programmers
-- Time period : 5 months
-- Technologies / Languages : Visual Studio 2017, Git, Trello, C++17, Python 3.7
-- Libraries : Qt, GLFW, PhysX, FMOD, nlohmann json, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus
+- Headcount: 4 programmers
+- Time period: 5 months
+- Technologies / Languages: Visual Studio 2017, Git, Trello, C++17, Python 3.7
+- Libraries: Qt, GLFW, PhysX, FMOD, nlohmann json, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus
 
 ---
 
@@ -147,6 +147,4 @@ During this project, I had the chance to work on all sub-projects. As the group 
 - Physics based picking, gizmos, multiple viewports handling and scene free controller
 - A great part of the game (concept, riddles)
 
-This project is without contest the more pleasant project I have worked on since I started to program. I could discover what exactly was engine programmation, and I feel like I truly improved my programmation and management knowledge.
-
-Ce projet est probablement le projet qui m'a le plus apporté mais aussi le plus plu depuis que j'ai commencé la programmation. J'ai pu découvrir de manière concrète en quoi consistait la programmation moteur, et j'ai le sentiment que mes compétences ont réellement évolué, que ce soit en programmation ou en gestion.
+This project is without contest the more pleasant project I have worked on since I started programmation. I had the chance to discover what exactly was engine programmation, and I feel like I truly improved my programmation and management knowledge.
