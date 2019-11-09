@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/</loc>
+    <lastmod>2019-06-13T15:19:20+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://juliensoy.netlify.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://juliensoy.netlify.com/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://juliensoy.netlify.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/post/</loc>
+    <lastmod>2019-06-13T15:19:20+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/post/turbo-engine/</loc>
+    <lastmod>2019-06-13T15:19:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/post/sslp/</loc>
+    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/post/stellar-pulse/</loc>
+    <lastmod>2019-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/post/gladiator/</loc>
+    <lastmod>2018-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/post/driftcarz/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://juliensoy.netlify.com/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://juliensoy.netlify.com/jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://juliensoy.netlify.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://juliensoy.netlify.com/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://juliensoy.netlify.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://juliensoy.netlify.com/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://juliensoy.netlify.com/tags/"
+                />
+  </url>
+  
+</urlset>
