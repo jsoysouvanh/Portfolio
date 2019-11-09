@@ -5,7 +5,6 @@ image = "TurboEngine/TurboEngineCover.png"
 description = "Creation of a complete 3D Game Engine with editor and demonstration game."
 date = 2019-06-13T15:19:20+02:00
 disableComments = true
-draft = true
 +++
 
 ## Details
@@ -147,4 +146,4 @@ During this project, I had the chance to work on all sub-projects. As the group 
 - Physics based picking, gizmos, multiple viewports handling and scene free controller
 - A great part of the game (concept, riddles)
 
-This project is without contest the more pleasant project I have worked on since I started programmation. I had the chance to discover what exactly was engine programmation, and I feel like I truly improved my programmation and management knowledge.
+This project is without any doubt the more pleasant project I have worked on since I started programmation. I had the chance to discover what exactly was engine programmation, and I feel like I truly improved my programmation and management knowledge.
