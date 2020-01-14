@@ -18,7 +18,7 @@ draft = true
 
 ## Présentation
 
-Light Transfer est un jeu d'infiltration développé à l'occasion d'un projet collaboratif avec les Game Designers en 1ère année de Game Programming. On y incarne deux entités, Apalis et Berezet, leur objectif étant de s'entraider pour se frayer un chemin jusqu'à la sortie. Apalis craint la lumière et son compagnon devra lui faire de l'ombre pour l'aider à passer. Inversement, Berezet craint l'ombre donc Apalis devra éclairer son chemin pour le guider.
+Light Transfer est un jeu d'infiltration développé à l'occasion d'un projet collaboratif avec les Game Designers en 1ère année de Game Programming. On y incarne deux entités, Apalis et Berezet, leur objectif étant de s'entraider pour se frayer un chemin jusqu'à la sortie. Apalis craint la lumière et son compagnon devra lui faire de l'ombre pour l'aider à passer. À l'inverse, Berezet craint l'ombre donc Apalis devra éclairer son chemin pour le guider.
 
 ---
 
