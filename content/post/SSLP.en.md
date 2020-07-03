@@ -11,7 +11,7 @@ disableComments = true
 - Headcount: 2 programmers
 - Time period: 1 month (alongside other projects)
 - Technologies / Languages: Unity 2018, C#, Visual Studio 2017, Git, Trello
-- Plateform: Android
+- Platform: Android
 
 ---
 
