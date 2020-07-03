@@ -3,7 +3,7 @@ title = "Lambo's Tale"
 slug = "Lambo's Tale"
 date = "2020-04-06T00:00:00"
 image = 'LambosTale/LambosTaleHeader.png'
-description = "Projet Metroidvania pour PC"
+description = "Jeu type Metroidvania pour PC"
 disableComments = true
 draft = false
 +++

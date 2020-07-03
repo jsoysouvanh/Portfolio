@@ -3,7 +3,7 @@ title = "Lambo's Tale"
 slug = "Lambo's Tale"
 date = "2020-04-06T00:00:00"
 image = 'LambosTale/LambosTaleHeader.png'
-description = "Metroidvania project for PC"
+description = "Metroidvania game for PC"
 disableComments = true
 draft = false
 +++
@@ -27,14 +27,14 @@ It is a bit special as it was a 100% remote project (due to Covid-19), and most 
 
 ---
 
-## Contribution personnelle
+## Personal implication
 
 - Procedural generation level system
-- Ennemies + AI
+- Enemies + AI
 - Redaction of a part of the TDD (Technical Design Document)
 - Camera
 - Character
-- A part of the player controller (jump snap, ennemies snap)
+- A part of the player controller (jump snap, enemies snap)
 - Interaction system (shop, doors, items)
 - Semi-persistent inventory system
 - Arenas logic

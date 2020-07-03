@@ -9,10 +9,10 @@ draft = false
 +++
 
 ## Details
-- Headcount: 2 programmers
-- Time period: 2 weeks
-- Technologies / Languages: Unity 2019.3, C#, Visual Studio 2019, Git, Trello
-- Platform: Nintendo Switch
+- **Headcount:** 2 programmers
+- **Time period:** 2 weeks
+- **Technologies / Languages:** Unity 2019.3, C#, Visual Studio 2019, Git, Trello
+- **Platform:** Nintendo Switch
 
 ---
 
