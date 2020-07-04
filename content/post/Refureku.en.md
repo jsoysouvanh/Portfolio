@@ -32,8 +32,8 @@ A few C++ reflection libraries already exist, but most of them have flaws I want
 ```cpp
 class ExampleClass
 {
-	private:
-		int i;
+    private:
+        int i;
 };
 
 REFLECT_CLASS("ExampleClass", (int) i)
@@ -48,10 +48,10 @@ With Refureku, we just have to tag the entity to reflect with a macro, and we ca
 
 class ReflectedClass(ExampleClassAttribute1) ExampleClass
 {
-	private:
-		ReflectedField(ExampleFieldAttribute1, ExampleFieldAttribute2)
-		int i;
+    private:
+        ReflectedField(ExampleFieldAttribute1, ExampleFieldAttribute2)
+        int i;
 
-	ExampleClass_GENERATED
+    ExampleClass_GENERATED
 };
 ```

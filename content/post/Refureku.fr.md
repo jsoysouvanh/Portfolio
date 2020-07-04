@@ -32,8 +32,8 @@ Il existe déjà un certain nombre de librairies de réflexion C++, mais la plup
 ```cpp
 class ExampleClass
 {
-	private:
-		int i;
+    private:
+        int i;
 };
 
 REFLECT_CLASS("ExampleClass", (int) i)
@@ -48,10 +48,10 @@ Avec Refureku, il suffit de tagger une entité avec une macro pour la réfléchi
 
 class ReflectedClass(ExampleClassAttribute1) ExampleClass
 {
-	private:
-		ReflectedField(ExampleFieldAttribute1, ExampleFieldAttribute2)
-		int i;
+    private:
+        ReflectedField(ExampleFieldAttribute1, ExampleFieldAttribute2)
+        int i;
 
-	ExampleClass_GENERATED
+    ExampleClass_GENERATED
 };
 ```
