@@ -10,6 +10,6 @@ theme = "hugo-theme-massively"
 	[languages.fr]
 	  languageName = "Français"
 	  title = "Julien Soysouvanh"
-	[languages.jp]
-	  languageName = "日本語"
-	  title = "ソイスヴァン　ジュリアン"
+#	[languages.jp]
+#	  languageName = "日本語"
+#	  title = "ソイスヴァン　ジュリアン"
