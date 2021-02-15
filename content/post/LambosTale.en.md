@@ -8,6 +8,16 @@ disableComments = true
 draft = false
 +++
 
+<div style="display: flex; justify-content: center;">
+    <iframe frameborder="0" src="https://itch.io/embed/760286?dark=true" width="552" height="167">
+        <a href="https://cfazilleau.itch.io/lambos-tale">
+            Lambo's Tale by cfazilleau
+        </a>
+    </iframe>
+</div>
+
+---
+
 ## Details
 - **Headcount:** 4 programmers, 4 game designers, 3 artists
 - **Time period:** 5 weeks
