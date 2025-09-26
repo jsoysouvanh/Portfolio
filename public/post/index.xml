@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Julien Soysouvanh</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Julien Soysouvanh</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kodgen &amp; Refureku</title>
+      <link>http://localhost:1313/post/kodgen-refureku/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/kodgen-refureku/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technologies / Languages:&lt;/strong&gt; C++17, libclang, &lt;a href=&#34;https://github.com/ToruNiina/toml11&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;toml11&#xD;&#xA;  &lt;svg id=&#34;external-link&#34; class=&#34;h-3 w-3 flex-shrink-0&#34;&#xD;&#xA;    fill=&#34;none&#34;&#xD;&#xA;    stroke=&#34;currentColor&#34;&#xD;&#xA;    viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt;, Visual Studio 2019, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform :&lt;/strong&gt; Windows / Linux&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;At the beginning, Kodgen and Refureku were a single library, but I thought some of the code could be reused for other purposes, which is the reason why I decided to split the initial codebase into 2 different libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lambo&#39;s Tale</title>
+      <link>http://localhost:1313/post/lambos-tale/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/lambos-tale/</guid>
+      <description>&lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;&#xD;&#xA;    &lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/760286?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&#xD;&#xA;        &lt;a href=&#34;https://cfazilleau.itch.io/lambos-tale&#34;&gt;&#xD;&#xA;            Lambo&#39;s Tale by cfazilleau&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Headcount:&lt;/strong&gt; 4 programmers, 4 game designers, 3 artists&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time period:&lt;/strong&gt; 5 weeks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technologies / Languages:&lt;/strong&gt; Unity 2019.3, C#, Visual Studio 2019, Perforce, Trello&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform:&lt;/strong&gt; PC / Gamepad&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This project, realized with a team of 11 people mixing programmers, game designers and game artists, represents our third year final project.&#xA;It is a bit special as it was a 100% remote project (due to Covid-19), and most of the team members had never met before.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Poshon</title>
+      <link>http://localhost:1313/post/poshon/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/poshon/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Headcount:&lt;/strong&gt; 2 programmers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time period:&lt;/strong&gt; 2 weeks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technologies / Languages:&lt;/strong&gt; Unity 2019.3, C#, Visual Studio 2019, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform:&lt;/strong&gt; Nintendo Switch&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This project was a R&amp;amp;D project on Nintendo Switch.&#xA;Our objective was to explore the functionalities of this console by creating a local multiplayer party-game.&#xA;Poshon (ポーション) is a local multiplayer party-game in which players have to reproduce potions as accurately as possible within a given amount of time.&#xA;Potion attributes can be changed by interacting with the environment and completing mini-games.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turbo Engine</title>
+      <link>http://localhost:1313/post/turbo-engine/</link>
+      <pubDate>Thu, 13 Jun 2019 15:19:20 +0200</pubDate>
+      <guid>http://localhost:1313/post/turbo-engine/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Headcount: 4 programmers&lt;/li&gt;&#xA;&lt;li&gt;Time period: 5 months&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Languages: Visual Studio 2017, Git, Trello, C++17, Python 3.7&lt;/li&gt;&#xA;&lt;li&gt;Libraries: Qt, GLFW, PhysX, FMOD, nlohmann json, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This second-year end project was composed of three sub-projects:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Development of a 3D game engine&lt;/li&gt;&#xA;&lt;li&gt;Development of an editor for this engine&lt;/li&gt;&#xA;&lt;li&gt;Development of a game using the engine&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/foICXHojFiI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turbo Engine</title>
+      <link>http://localhost:1313/post/turbo-engine/</link>
+      <pubDate>Thu, 13 Jun 2019 15:19:20 +0200</pubDate>
+      <guid>http://localhost:1313/post/turbo-engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slide Slide Little Penguin</title>
+      <link>http://localhost:1313/post/sslp/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/sslp/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Headcount: 2 programmers&lt;/li&gt;&#xA;&lt;li&gt;Time period: 1 month (alongside other projects)&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Languages: Unity 2018, C#, Visual Studio 2017, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;Platform: Android&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This project was about working on procedural generation of 2D terrain. Slide Slide Little Penguin looks like the game &amp;ldquo;Tiny Wings&amp;rdquo;, but the game&amp;rsquo;s goal is a bit different: the player has to make his/her penguin go as far as possible in 30 seconds. Best scores are saved and displayed on the title screen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Slide Slide Little Penguin</title>
+      <link>http://localhost:1313/post/sslp/</link>
+      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/sslp/</guid>
+      <description>&lt;p&gt;//TODO Contenu du post&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stellar Pulse</title>
+      <link>http://localhost:1313/post/stellar-pulse/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/stellar-pulse/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Headcount:&lt;/strong&gt; 3 programmers, 4 game designers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Time period:&lt;/strong&gt; 2 weeks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technologies / Languages:&lt;/strong&gt; Unreal Engine 4, C++, Visual Studio 2017, Git, Trello, Slack&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform:&lt;/strong&gt; PC (Oculus Rift)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Stellar Pulse is a VR rythm shooting game in which the player controls two spaceships and makes them go through rings following the music.&#xA;Be careful to asteroids and make sure to get rid of all the enemies!&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Kn0CMk3IwdQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;personal-implication&#34;&gt;Personal implication&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enemies + AI&lt;/li&gt;&#xA;&lt;li&gt;Spaceship shoot system (auto-aim, beam particles)&lt;/li&gt;&#xA;&lt;li&gt;Generic pooling system (asteroids, enemies, bullets, rings&amp;hellip;)&lt;/li&gt;&#xA;&lt;li&gt;Buttons (menu + in-game)&lt;/li&gt;&#xA;&lt;li&gt;Splash screen&lt;/li&gt;&#xA;&lt;li&gt;Spaceship HUD (score + combos)&lt;/li&gt;&#xA;&lt;li&gt;Sounds &amp;amp; Particles integration&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
