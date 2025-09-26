@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Julien Soysouvanh</title>
+    <link>http://localhost:1313/fr/post/</link>
+    <description>Recent content in Posts on Julien Soysouvanh</description>
+    <generator>Hugo</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DriftCarz</title>
+      <link>http://localhost:1313/fr/post/driftcarz/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/post/driftcarz/</guid>
+      <description>&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Effectif : 2 programmeurs&lt;/li&gt;&#xA;&lt;li&gt;Délai : 2 semaines&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Langages : Unity 2018, C#, C++, Visual Studio 2017, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;Plateforme : PC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif de ce projet était de passer un jeu de course simple développé sous Unity en multijoueur online. Pour ce faire, nous avons dans un premier temps développé une librairie réseau (C++) en utilisant Winsock2 que nous avons importée dans Unity. Nous avons ensuite revu un petit peu l&amp;rsquo;architecture du jeu de course initial, pour faciliter l&amp;rsquo;implémentation du réseau. Enfin, nous avons implémenté la couche réseau dans le jeu. Nous recherchions cependant un petit peu de challenge et nous sentions qu&amp;rsquo;il était possible de faire quelque chose de bien polish en poussant le vice un peu plus loin. Nous avons donc étendu le jeu avec un certain nombre de nouvelles features :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
