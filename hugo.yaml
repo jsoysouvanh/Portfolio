@@ -5,7 +5,6 @@ defaultContentLanguageInSubdir: false
 title: Julien Soysouvanh
 theme: "hugo-narrow"
 
-
 hasCJKLanguage: true
 enableEmoji: true
 
@@ -129,7 +128,7 @@ params:
   - "/images/og-default.avif"
 
   logo:
-    image: "/images/logo.svg"  # Logo path rel to static folder, leave empty use site title and primary color
+    image: ""  # Logo path rel to static folder, leave empty use site title and primary color
     link: "/"                  # click to home page
   favicon:
     svg: "/favicon.svg"        # SVG format favicon (recommended)
@@ -213,7 +212,7 @@ params:
     relatedPostsCount: 3        # posts number
   
     license:
-      show: true
+      show: false
       author: "Hugo Narrow"
       name: "CC BY-NC-SA 4.0"
       description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
