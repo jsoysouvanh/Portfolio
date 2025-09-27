@@ -208,7 +208,7 @@ params:
     recentPostsCount: 5 # Number of recent posts to show on the home page
 
   post:
-    showRelated: true           # show related posts
+    showRelated: false           # show related posts
     relatedPostsCount: 3        # posts number
   
     license:

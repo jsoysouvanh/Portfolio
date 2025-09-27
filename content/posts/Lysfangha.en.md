@@ -13,7 +13,7 @@ draft: false
 ## Overview
 - **Team project:** See [credits](https://www.mobygames.com/game/217756/lysfanga-the-time-shift-warrior/credits/windows)
 - **Tech stack:** Unity 2021, C#, Visual Studio, Perforce, Jira
-- **Platforms:** Windows / Nintendo Switch
+- **Platforms:** Windows ([Steam](https://store.steampowered.com/app/2161620), [Epic Store](https://store.epicgames.com/p/lysfanga-9608f2)) / [Nintendo Switch](https://www.nintendo.com/store/products/lysfanga-the-time-shift-warrior-switch)
 
 Rewind time to create clones of your past-selves, and fight with an army of your own. Become legion and triumph over hordes of monsters.
 

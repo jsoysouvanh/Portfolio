@@ -5,7 +5,7 @@ date: "2020-04-06"
 description: "2D Metroidvania game"
 tags: ["Unity", "C#", "Perforce", "School"]
 categories: ["Projects"]
-cover: "/LambosTale/LambosTaleHeader_OriginalSize.png"
+cover: "/LambosTale/LambosTaleHeader.png"
 showCoverInPost: false
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "Stellar Pulse"
 slug: "stellar-pulse"
 date: 2019-03-28
 description: "VR Rythm shooting game"
-tags: ["Unreal Engine 4", "C++", "Git", "VR", "School"]
+tags: ["Unreal Engine", "C++", "Git", "VR", "School"]
 categories: ["Projects"]
 cover: "/StellarPulse/StellarPulseLogo.png"
 showCoverInPost: false
