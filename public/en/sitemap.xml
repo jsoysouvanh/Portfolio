@@ -2,6 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/c%23/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-JP"
+                href="http://localhost:1313/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/posts/lysfangha/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/perforce/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-JP"
+                href="http://localhost:1313/ja/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/pro/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-JP"
+                href="http://localhost:1313/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/unity/</loc>
+    <lastmod>2024-02-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-01-01T00:00:00+08:00</lastmod>
     <xhtml:link
@@ -38,7 +110,25 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/kodgen-refureku/</loc>
+    <loc>http://localhost:1313/tags/nintendo-switch/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/postbird-in-provence/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/school/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/git/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/library/</loc>
+    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/refureku/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -48,20 +138,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/posts/kodgen-refureku/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/"
+                href="http://localhost:1313/posts/refureku/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/lambos-tale/</loc>
@@ -77,24 +154,8 @@
                 href="http://localhost:1313/posts/lambos-tale/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/poshon/</loc>
-    <lastmod>2020-02-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/posts/poshon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/poshon/"
-                />
-  </url><url>
     <loc>http://localhost:1313/posts/turbo-engine/</loc>
-    <lastmod>2019-06-13T15:19:20+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/turbo-engine/</loc>
-    <lastmod>2019-06-13T15:19:20+02:00</lastmod>
+    <lastmod>2019-06-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
@@ -105,22 +166,6 @@
                 hreflang="en-US"
                 href="http://localhost:1313/posts/turbo-engine/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/posts/sslp/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/posts/sslp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/posts/sslp/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/posts/sslp/</loc>
-    <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/stellar-pulse/</loc>
     <lastmod>2019-03-28T00:00:00+00:00</lastmod>
@@ -135,38 +180,27 @@
                 href="http://localhost:1313/posts/stellar-pulse/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-JP"
-                href="http://localhost:1313/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="http://localhost:1313/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/categories/"
-                />
+    <loc>http://localhost:1313/tags/unreal-engine-4/</loc>
+    <lastmod>2019-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/vr/</loc>
+    <lastmod>2019-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="http://localhost:1313/ja/tags/"
+                href="http://localhost:1313/ja/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="http://localhost:1313/fr/tags/"
+                href="http://localhost:1313/fr/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/archives/"
                 />
   </url>
 </urlset>

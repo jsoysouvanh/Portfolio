@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nintendo Switch on Julien Soysouvanh</title>
+    <link>http://localhost:1313/tags/nintendo-switch/</link>
+    <description>Recent content in Nintendo Switch on Julien Soysouvanh</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nintendo-switch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postbird in Provence</title>
+      <link>http://localhost:1313/posts/postbird-in-provence/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/postbird-in-provence/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Team project:&lt;/strong&gt; 2 producers, 5 programmers, 2 game designers, 3 artists, 2 sound designers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dev time:&lt;/strong&gt; Roughly half a year&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech stack:&lt;/strong&gt; Unity 2019.4, C#, Visual Studio 2019, Perforce, Trello&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platforms:&lt;/strong&gt; Windows / Nintendo Switch&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Postbird in Provence&lt;/strong&gt; is my graduation project at Isart Digital. It&amp;rsquo;s a cute adventure game that was initially developed for Nintendo Switch, making use of most of the features the joycons have to offer (HD haptics, gyroscope, accelerometer&amp;hellip;). It was a nice technical challenge to try to reach 60 FPS on the platform.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

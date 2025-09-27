@@ -5,7 +5,7 @@ date = "2020-02-10T00:00:00"
 image = 'Poshon/LevelSelection.png'
 description = "R&D project on Nintendo Switch"
 disableComments = true
-draft = false
+draft = true
 +++
 
 ## Details

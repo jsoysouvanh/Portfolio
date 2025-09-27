@@ -30,13 +30,6 @@
       <description>&lt;div style=&#34;display: flex; justify-content: center;&#34;&gt;&#xD;&#xA;    &lt;iframe frameborder=&#34;0&#34; src=&#34;https://itch.io/embed/760286?dark=true&#34; width=&#34;552&#34; height=&#34;167&#34;&gt;&#xD;&#xA;        &lt;a href=&#34;https://cfazilleau.itch.io/lambos-tale&#34;&gt;&#xD;&#xA;            Lambo&#39;s Tale by cfazilleau&#xD;&#xA;        &lt;/a&gt;&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Effectif :&lt;/strong&gt; 4 programmeurs, 4 game designers, 3 artistes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Délai :&lt;/strong&gt; 5 semaines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technologies / Langages :&lt;/strong&gt; Unity 2019.3, C#, Visual Studio 2019, Perforce, Trello&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plateforme :&lt;/strong&gt; PC / Manette&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;Ce projet realisé en collaboration avec des programmeurs, designers et artistes est notre projet de fin de 3ème année.&#xA;C&amp;rsquo;est un projet un petit peu particulier car il a entièrement été réalisé à distance à cause de la situation sanitaire liée au Covid-19.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Poshon</title>
-      <link>http://localhost:1313/fr/posts/poshon/</link>
-      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/posts/poshon/</guid>
-      <description>&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Effectif : 2 programmeurs&lt;/li&gt;&#xA;&lt;li&gt;Délai : 2 semaines&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Langages : Unity 2019.3, C#, Visual Studio 2019, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;Plateforme : Nintendo Switch&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;Ce projet était un projet de R&amp;amp;D sur la Nintendo Switch.&#xA;Notre objectif était d&amp;rsquo;explorer les fonctionnalités proposées par la console en développant un party-game en multijoueur local.&#xA;Poshon (ポーション) est donc un party-game en multijoueur local dans lequel l&amp;rsquo;objectif est de reproduire des potions le plus fidèlement possible dans un temps imparti.&#xA;Pour faire changer les attributs d&amp;rsquo;une potion, il faut intéragir avec les machines du niveau et compléter des mini-jeux.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Turbo Engine</title>
       <link>http://localhost:1313/fr/posts/turbo-engine/</link>
       <pubDate>Thu, 13 Jun 2019 15:19:20 +0200</pubDate>
@@ -56,27 +49,6 @@
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/fr/posts/stellar-pulse/</guid>
       <description>&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Effectif :&lt;/strong&gt; 3 programmeurs, 4 game designers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Délai :&lt;/strong&gt; 1 mois&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technologies / Langages :&lt;/strong&gt; Unreal Engine 4, C++, Visual Studio 2017, Git, Trello, Slack&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plateforme :&lt;/strong&gt; PC (Oculus Rift)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;Stellar Pulse est un jeu de rythme et de shoot en VR dans lequel le joueur prend le contrôle de deux vaisseaux qu&amp;rsquo;il doit faire passer dans des anneaux en rythme avec la musique, en évitant les obstacles et en détruisant les ennemis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gladiator</title>
-      <link>http://localhost:1313/fr/posts/gladiator/</link>
-      <pubDate>Wed, 28 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/posts/gladiator/</guid>
-      <description>&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Effectif : 2 programmeurs&lt;/li&gt;&#xA;&lt;li&gt;Délai : 1 mois&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Langages : Unreal Engine 4, C++, Visual Studio 2017, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;Plateforme : PC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;Le projet Gladiator était un projet qui avait pour premier objectif de nous faire découvrir UE4. L&amp;rsquo;idée était de créer un Battle Arena à la troisième personne avec les assets à notre disposition (meshs, animations, sons). Le jeu est jouable en solo (contre l&amp;rsquo;IA) mais aussi en multijoueur online (mode COOP et mode PvP).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DriftCarz</title>
-      <link>http://localhost:1313/fr/posts/driftcarz/</link>
-      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/posts/driftcarz/</guid>
-      <description>&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Effectif : 2 programmeurs&lt;/li&gt;&#xA;&lt;li&gt;Délai : 2 semaines&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Langages : Unity 2018, C#, C++, Visual Studio 2017, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;Plateforme : PC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif de ce projet était de passer un jeu de course simple développé sous Unity en multijoueur online. Pour ce faire, nous avons dans un premier temps développé une librairie réseau (C++) en utilisant Winsock2 que nous avons importée dans Unity. Nous avons ensuite revu un petit peu l&amp;rsquo;architecture du jeu de course initial, pour faciliter l&amp;rsquo;implémentation du réseau. Enfin, nous avons implémenté la couche réseau dans le jeu. Nous recherchions cependant un petit peu de challenge et nous sentions qu&amp;rsquo;il était possible de faire quelque chose de bien polish en poussant le vice un peu plus loin. Nous avons donc étendu le jeu avec un certain nombre de nouvelles features :&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Light Transfer</title>
-      <link>http://localhost:1313/fr/posts/light-transfer/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/posts/light-transfer/</guid>
-      <description>&lt;h2 id=&#34;détails&#34;&gt;Détails&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Effectif : 2 programmeurs, 4 game designers&lt;/li&gt;&#xA;&lt;li&gt;Délai : 1 mois&lt;/li&gt;&#xA;&lt;li&gt;Technologies / Langages : Unity 2017, C#, Visual Studio 2017, Git, Trello&lt;/li&gt;&#xA;&lt;li&gt;Plateforme : PC (Controlleur Xbox)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;&#xA;&lt;p&gt;Light Transfer est un jeu d&amp;rsquo;infiltration développé à l&amp;rsquo;occasion d&amp;rsquo;un projet collaboratif avec les Game Designers en 1ère année de Game Programming. On y incarne deux entités, Apalis et Berezet, leur objectif étant de s&amp;rsquo;entraider pour se frayer un chemin jusqu&amp;rsquo;à la sortie. Apalis craint la lumière et son compagnon devra lui faire de l&amp;rsquo;ombre pour l&amp;rsquo;aider à passer. À l&amp;rsquo;inverse, Berezet craint l&amp;rsquo;ombre donc Apalis devra éclairer son chemin pour le guider.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,12 +1,26 @@
-+++
-title = "Lambo's Tale"
-slug = "Lambo's Tale"
-date = "2020-04-06T00:00:00"
-image = 'LambosTale/LambosTaleHeader.png'
-description = "Metroidvania game for PC"
-disableComments = true
-draft = false
-+++
+---
+title: "Lambo's Tale"
+slug: "lambos-tale"
+date: "2020-04-06"
+description: "2D Metroidvania game"
+tags: ["Unity", "C#", "Perforce", "School"]
+categories: ["Projects"]
+cover: "/LambosTale/LambosTaleHeader_OriginalSize.png"
+showCoverInPost: false
+draft: false
+---
+
+## Overview
+- **Team project:** 4 programmers, 4 game designers, 3 artists
+- **Dev time:** 5 weeks (school)
+- **Tech stack:** Unity 2019.3, C#, Visual Studio 2019, Perforce, Trello
+- **Platforms:** Windows
+
+**Lambo's Tale** is a Metroidvania game in which we play as Lambo, a little lamb who's trying to take revenge on the wolf gang which bullied his little sister (yes, the plot is messed up).
+
+{{< youtube id="6GjfYDQagJo" >}}
+
+---
 
 <div style="display: flex; justify-content: center;">
     <iframe frameborder="0" src="https://itch.io/embed/760286?dark=true" width="552" height="167">
@@ -18,26 +32,7 @@ draft = false
 
 ---
 
-## Details
-- **Headcount:** 4 programmers, 4 game designers, 3 artists
-- **Time period:** 5 weeks
-- **Technologies / Languages:** Unity 2019.3, C#, Visual Studio 2019, Perforce, Trello
-- **Platform:** PC / Gamepad
-
----
-
-## Introduction
-
-This project, realized with a team of 11 people mixing programmers, game designers and game artists, represents our third year final project.
-It is a bit special as it was a 100% remote project (due to Covid-19), and most of the team members had never met before.
-
-**Lambo's Tale** is a Metroidvania game in which we play as Lambo, a little lamb who's trying to take revenge on the wolf gang which bullied his little sister.
-
-{{< youtube id="6GjfYDQagJo" >}}
-
----
-
-## Personal implication
+## Personal contribution
 
 - Procedural generation level system
 - Enemies + AI
@@ -50,9 +45,9 @@ It is a bit special as it was a 100% remote project (due to Covid-19), and most 
 - Arenas logic
 - Generic feedbacks system (particles, sounds, haptics, camera shakes)
 - Pooling system
-- LD bricks (doors, keys, destructibles, spikes, pickable items)
+- LD gimmicks (doors, keys, destructibles, spikes, pickable items)
 - Loading screen
 - Damage feedback system
-- FTUE (First Time User Experience - Tutorial) scripted parts
-- Shop logic
+- FTUE (First Time User Experience - Tutorial) gameflow
+- Shop
 - Assets integration (animations, sprites)

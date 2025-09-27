@@ -5,6 +5,7 @@ image = 'SSLP/SSLPScreen.jpg'
 description = "Realisation of a Tiny Wings / Dune like mobile game"
 date = '2019-05-18T00:00:00'
 disableComments = true
+draft = true
 +++
 
 ## Details

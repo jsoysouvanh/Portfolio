@@ -136,7 +136,7 @@ params:
 
   author:
     name: "Julien Soysouvanh"
-    title: "Game Programmer"
+    title: "Game/Engine Programmer"
     description: ""
     avatar: "/images/avatar.svg"
     social:
@@ -147,7 +147,7 @@ params:
         url: "https://github.com/jsoysouvanh"
         icon: "github"
       - name: "LinkedIn"
-        url: "https://linkedin.com/in/username"
+        url: "https://linkedin.com/in/julien-soysouvanh"
         icon: "linkedin"
       - name: "Email"
         url: "mailto:julien.soysouvanh.blog@gmail.com"
@@ -156,7 +156,7 @@ params:
   # UI Components Control
   showThemeSwitch: false      # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: false   # Set to false to hide dark mode switcher (sun/moon icon)
-  showLanguageSwitch: true   # Set to false to hide language switcher
+  showLanguageSwitch: false   # Set to false to hide language switcher
   languageSwitchMode: "dropdown"  # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
 
   # Header sticky effect

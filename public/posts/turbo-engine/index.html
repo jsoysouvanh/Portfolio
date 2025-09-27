@@ -11,8 +11,8 @@
 
 <title>Turbo Engine | Julien Soysouvanh</title>
 
-<meta name="description" content="Réalisation d&#39;un moteur de jeu vidéo 3D complet avec éditeur, et d&#39;un jeu." />
-<meta name="keywords" content="Hugo, Blog, Theme, Technology, Programming" />
+<meta name="description" content="Dev of a 3D Game Engine with editor and game" />
+<meta name="keywords" content="C&#43;&#43;, Git, School" />
 <meta name="author" content="Hugo Narrow" />
 <meta name="language" content="en-US" />
 
@@ -29,26 +29,31 @@
 <meta property="og:url" content="http://localhost:1313/posts/turbo-engine/">
   <meta property="og:site_name" content="Julien Soysouvanh">
   <meta property="og:title" content="Turbo Engine">
-  <meta property="og:description" content="Réalisation d&#39;un moteur de jeu vidéo 3D complet avec éditeur, et d&#39;un jeu.">
+  <meta property="og:description" content="Dev of a 3D Game Engine with editor and game">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2019-06-13T15:19:20+02:00">
-    <meta property="article:modified_time" content="2019-06-13T15:19:20+02:00">
+    <meta property="article:published_time" content="2019-06-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-06-13T00:00:00+00:00">
+    <meta property="article:tag" content="C&#43;&#43;">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="School">
     <meta property="og:image" content="http://localhost:1313/images/og-default.avif">
 
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/og-default.avif">
   <meta name="twitter:title" content="Turbo Engine">
-  <meta name="twitter:description" content="Réalisation d&#39;un moteur de jeu vidéo 3D complet avec éditeur, et d&#39;un jeu.">
+  <meta name="twitter:description" content="Dev of a 3D Game Engine with editor and game">
 
 
   <meta itemprop="name" content="Turbo Engine">
-  <meta itemprop="description" content="Réalisation d&#39;un moteur de jeu vidéo 3D complet avec éditeur, et d&#39;un jeu.">
-  <meta itemprop="datePublished" content="2019-06-13T15:19:20+02:00">
-  <meta itemprop="dateModified" content="2019-06-13T15:19:20+02:00">
+  <meta itemprop="description" content="Dev of a 3D Game Engine with editor and game">
+  <meta itemprop="datePublished" content="2019-06-13T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2019-06-13T00:00:00+00:00">
+  <meta itemprop="wordCount" content="149">
   <meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
+  <meta itemprop="keywords" content="C&#43;&#43;,Git,School">
 
 
 
@@ -77,8 +82,12 @@
 
 
 
+  
 
 
+
+
+  
 
 
 
@@ -166,8 +175,8 @@
 <script>
 
   window.HUGO_GALLERY_CONFIG = {
-    justified_gallery:  false ,
-    lightbox:  false ,
+    justified_gallery:  true ,
+    lightbox:  true ,
     justified: "{\"calculateitemsheight\":false,\"gutter\":30,\"lastrow\":\"center\",\"maxrowscount\":999999,\"resizedebounce\":100,\"rowheight\":300,\"rowheighttolerance\":0.25,\"transitionduration\":\"0.3s\"}",
     lightbox_options: "{\"descposition\":\"bottom\",\"draggable\":true,\"height\":\"80vh\",\"loop\":true,\"preload\":true,\"touchnavigation\":true,\"width\":\"80vw\",\"zoomable\":true}"
   };
@@ -195,7 +204,11 @@
 
 
 
+  <link rel="stylesheet" href="/css/fjGallery.css">
 
+
+
+  <link rel="stylesheet" href="/css/glightbox.min.css">
 
 
 
@@ -221,18 +234,29 @@
 
 
 
+  <script src="/js/fjGallery.min.js"></script>
 
+
+
+  <script src="/js/glightbox.min.js"></script>
 
 
 
 
 
   
+    
+  
+
+
+
+  <script src="/js/macy.js"></script>
+  
 
 
 
 
-
+        <script src="/js/gallery.js" defer></script>
 
 
 
@@ -503,7 +527,7 @@
             
             
             <a
-              href="/"
+              href="/archives/"
               class="nav-link 
                 text-muted-foreground hover:text-primary hover:bg-primary/10
                focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none">
@@ -531,28 +555,6 @@
       <div class="flex items-center space-x-2">
         
         
-<div class="relative">
-  <button id="language-toggle"
-    class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
-    data-dropdown-type="language"
-    aria-label="Switch language"
-    aria-expanded="false"
-    aria-haspopup="true">
-      
-  <svg class="h-5 w-5 relative z-10"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Switch language">
-	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6" />
-</svg></button>
-
-  
-  <div id="language-dropdown"
-    class="dropdown-menu border-border bg-popover/95 absolute top-12 right-0 z-[60] hidden w-40 rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
-    data-dropdown-type="language"
-    role="menu"
-    aria-labelledby="language-toggle"><a href="/en/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a><a href="/ja/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">日本語</span></a><a href="/fr/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Français</span></a></div>
-</div>
 
         
         
@@ -699,7 +701,7 @@
         
         
         <a
-          href="/"
+          href="/archives/"
           class="nav-link 
             text-muted-foreground hover:text-primary hover:bg-primary/10
            focus:ring-primary/20 relative flex items-center gap-3 rounded-md px-4 py-3 text-sm font-medium transition-all duration-200 ease-out hover:translate-x-1 focus:ring-2 focus:outline-none"
@@ -731,28 +733,6 @@
       <div class="flex items-center space-x-2">
         
         
-<div class="relative">
-  <button id="language-toggle"
-    class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
-    data-dropdown-type="language"
-    aria-label="Switch language"
-    aria-expanded="false"
-    aria-haspopup="true">
-      
-  <svg class="h-5 w-5 relative z-10"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24" aria-label="Switch language">
-	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6" />
-</svg></button>
-
-  
-  <div id="language-dropdown"
-    class="dropdown-menu border-border bg-popover/95 absolute top-12 right-0 z-[60] hidden w-40 rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
-    data-dropdown-type="language"
-    role="menu"
-    aria-labelledby="language-toggle"><a href="/en/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a><a href="/ja/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">日本語</span></a><a href="/fr/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Français</span></a></div>
-</div>
 
         
         
@@ -892,14 +872,104 @@
 
       
       
+        <div class="flex items-center gap-2">
+          
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24" aria-label="Reading time"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+          <span
+            >1 minute</span
+          >
+        </div>
+      
 
 
       
+      
+        <div class="flex items-center gap-2">
+          
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24" aria-label="Word count"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+</svg>
+          <span>149 words</span>
+        </div>
       
 
     </div>
 
     
+    
+      <div class="flex flex-wrap items-center gap-4">
+        
+        
+          <div class="flex items-center gap-2">
+            
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24" aria-label="Categories"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+            <span class="text-muted-foreground mr-2 text-sm"
+              >Categories:</span
+            >
+            <div class="flex flex-wrap gap-2">
+              
+                <a
+                  href="/categories/projects/"
+                  class="bg-primary/10 text-primary hover:bg-primary/20 focus:ring-primary/20 inline-flex items-center rounded-full px-3 py-1 text-sm font-medium transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-105 hover:shadow-md focus:ring-2 focus:outline-none">
+                  Projects
+                </a>
+              
+            </div>
+          </div>
+        
+
+
+        
+        
+          <div class="flex items-center gap-2">
+            
+  <svg class="h-4 w-4"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24" aria-label="Tags">
+	<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+		<path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+		<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+	</g>
+</svg>
+            <span class="text-muted-foreground mr-2 text-sm"
+              >Tags:</span
+            >
+            <div class="flex flex-wrap gap-2">
+              
+                <a
+                  href="/tags/c&#43;&#43;/"
+                  class="bg-muted/50 text-muted-foreground hover:bg-primary/10 hover:text-primary focus:ring-primary/20 inline-flex items-center rounded px-2 py-1 text-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none">
+                  #C&#43;&#43;
+                </a>
+              
+                <a
+                  href="/tags/git/"
+                  class="bg-muted/50 text-muted-foreground hover:bg-primary/10 hover:text-primary focus:ring-primary/20 inline-flex items-center rounded px-2 py-1 text-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none">
+                  #Git
+                </a>
+              
+                <a
+                  href="/tags/school/"
+                  class="bg-muted/50 text-muted-foreground hover:bg-primary/10 hover:text-primary focus:ring-primary/20 inline-flex items-center rounded px-2 py-1 text-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none">
+                  #School
+                </a>
+              
+            </div>
+          </div>
+        
+
+      </div>
     
 
 
@@ -913,7 +983,338 @@
 
   
   <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
+    <p>
+<figure class="image-figure not-prose my-8" 
+        data-lightbox-enabled="true"
+        data-gallery-type="auto">
+  <div class="image-container">
+    <img
+    src="/TurboEngine/TurboEngineStamp.png"
+    alt="TurboEngine logo"
     
+    
+    loading="lazy"
+    decoding="async"
+    data-gallery-src="/TurboEngine/TurboEngineStamp.png"
+    data-gallery-alt="TurboEngine logo"
+    data-gallery-title="" /></div>
+
+  </figure></p>
+<h2 id="overview">Overview</h2>
+<ul>
+<li><strong>Team project:</strong> 4 programmers</li>
+<li><strong>Dev time:</strong> 5 months (school)</li>
+<li><strong>Tech stack:</strong> C++17, Visual Studio 2017, Git, Trello, Python 3.7, Qt, GLFW, PhysX, FMOD, nlohmann json, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus</li>
+<li><strong>Platforms:</strong> Windows</li>
+</ul>
+<p>The Turbo Engine is a 3D game engine 3 amazing teammates and I developed as third year students. We also developed an editor, and made a small game with it.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/foICXHojFiI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<hr>
+
+<style>
+  
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 {
+  width: 100%;
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .masonry-container {
+  width: 100%;
+  position: relative;
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .masonry-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+  break-inside: avoid;
+  box-sizing: border-box;
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .glightbox {
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .glightbox:hover,
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .glightbox:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .masonry-item:hover img {
+  transform: scale(1.05);
+}
+
+#masonry-e3db5b5092d6537cb5698fd8390a3229-1 .masonry-item {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+</style>
+
+<div class="masonry-gallery" 
+     id="masonry-e3db5b5092d6537cb5698fd8390a3229-1"
+     data-columns="2"
+     data-gutter="15"
+     data-animate="true"
+     data-use-transform="true"
+     data-center="true"
+     data-max-columns="5"
+     data-lightbox="true">
+
+  <div class="masonry-container">
+    <div class="masonry-item"><a href="/TurboEngine/TurboEngineCover.png" 
+             class="glightbox"
+             data-gallery="masonry-e3db5b5092d6537cb5698fd8390a3229-1"data-description="<p>In-game screenshot</p>">
+            
+            <img
+    src="/TurboEngine/TurboEngineCover.png"
+    alt="In-game screenshot"
+    
+    
+    loading="lazy"
+    decoding="async"
+    data-gallery-src="/TurboEngine/TurboEngineCover.png"
+    data-gallery-alt="In-game screenshot"
+    data-gallery-title="" /></a></div><div class="masonry-item"><a href="/TurboEngine/TurboEngineEditor.png" 
+             class="glightbox"
+             data-gallery="masonry-e3db5b5092d6537cb5698fd8390a3229-1"data-description="<p>Turbo Engine editor</p>">
+            
+            <img
+    src="/TurboEngine/TurboEngineEditor.png"
+    alt="Turbo Engine editor"
+    
+    
+    loading="lazy"
+    decoding="async"
+    data-gallery-src="/TurboEngine/TurboEngineEditor.png"
+    data-gallery-alt="Turbo Engine editor"
+    data-gallery-title="" /></a></div><div class="masonry-item"><a href="/TurboEngine/TurboGame.jpg" 
+             class="glightbox"
+             data-gallery="masonry-e3db5b5092d6537cb5698fd8390a3229-1"data-description="<p>In-game screenshot</p>">
+            
+            <img
+    src="/TurboEngine/TurboGame.jpg"
+    alt="In-game screenshot"
+    
+    
+    loading="lazy"
+    decoding="async"
+    data-gallery-src="/TurboEngine/TurboGame.jpg"
+    data-gallery-alt="In-game screenshot"
+    data-gallery-title="" /></a></div><div class="masonry-item"><a href="/TurboEngine/splash.png" 
+             class="glightbox"
+             data-gallery="masonry-e3db5b5092d6537cb5698fd8390a3229-1"data-description="<p>Turbo Engine editor splash screen</p>">
+            
+            <img
+    src="/TurboEngine/splash.png"
+    alt="Turbo Engine editor splash screen"
+    
+    
+    loading="lazy"
+    decoding="async"
+    data-gallery-src="/TurboEngine/splash.png"
+    data-gallery-alt="Turbo Engine editor splash screen"
+    data-gallery-title="" /></a></div></div>
+</div>
+
+
+<script>
+(function() {
+  const containerId = 'masonry-e3db5b5092d6537cb5698fd8390a3229-1';
+  const config = {
+    columns:  2 ,
+    gutter:  15 ,
+    maxColumns:  5 ,
+    lightbox:  true ,
+    animate: "true",
+    useTransform: "true",
+    center: "true"
+  };
+  
+  console.log('Initializing masonry gallery:', containerId, config);
+  
+  function initMasonryGallery() {
+    const container = document.getElementById(containerId);
+    if (!container) {
+      console.error('Masonry container not found:', containerId);
+      return;
+    }
+    
+    const masonryContainer = container.querySelector('.masonry-container');
+    if (!masonryContainer) {
+      console.error('Masonry inner container not found');
+      return;
+    }
+    
+    
+    if (typeof Macy === 'undefined') {
+      console.error('Macy.js not loaded');
+      return;
+    }
+    
+    console.log('Found container and Macy, initializing...');
+    
+    
+    try {
+      const macyInstance = Macy({
+        container: masonryContainer,
+        trueOrder: false,
+        waitForImages: true,
+        useOwnImageLoader: false,
+        debug: false,
+        mobileFirst: true,
+        columns: config.columns,
+        margin: {
+          x: config.gutter,
+          y: config.gutter
+        },
+        breakAt: {
+          1400: Math.min(config.maxColumns, config.columns),
+          1200: Math.min(config.maxColumns, config.columns),
+          940: Math.min(config.maxColumns, config.columns),  
+          768: Math.min(3, config.columns),
+          520: Math.min(2, config.columns),
+          400: 1
+        }
+      });
+      
+      console.log('Macy initialized successfully for', containerId);
+      
+      
+      const images = masonryContainer.querySelectorAll('img');
+      let loadedImages = 0;
+      const totalImages = images.length;
+      
+      function onImageLoad() {
+        loadedImages++;
+        console.log(`Image ${loadedImages}/${totalImages} loaded`);
+        
+        if (loadedImages === totalImages) {
+          setTimeout(() => {
+            if (macyInstance && macyInstance.reCalculate) {
+              macyInstance.reCalculate(true);
+              console.log('Macy layout recalculated after all images loaded');
+            }
+          }, 100);
+        }
+      }
+      
+      images.forEach(img => {
+        if (img.complete) {
+          onImageLoad();
+        } else {
+          img.addEventListener('load', onImageLoad);
+          img.addEventListener('error', onImageLoad);
+        }
+      });
+      
+    } catch (error) {
+      console.error('Error initializing Macy:', error);
+    }
+    
+    
+    if (config.lightbox) {
+      if (typeof GLightbox !== 'undefined') {
+        try {
+          
+          let globalLightboxConfig = window.HUGO_GALLERY_CONFIG?.lightbox_options || {};
+          
+          if (typeof globalLightboxConfig === 'string') {
+            try {
+              globalLightboxConfig = JSON.parse(globalLightboxConfig);
+            } catch (e) {
+              console.error('Error parsing masonry GLightbox config:', e);
+              globalLightboxConfig = {};
+            }
+          }          
+          const lightbox = GLightbox({
+            selector: `#${containerId} .glightbox`,
+            touchNavigation: globalLightboxConfig.touchnavigation ?? globalLightboxConfig.touchNavigation ?? true,
+            loop: globalLightboxConfig.loop ?? true,
+            draggable: globalLightboxConfig.draggable ?? true,
+            zoomable: globalLightboxConfig.zoomable ?? true,
+            preload: globalLightboxConfig.preload ?? true,
+            width: globalLightboxConfig.width || '90vw',
+            height: globalLightboxConfig.height || '90vh',
+            descPosition: globalLightboxConfig.descposition || globalLightboxConfig.descPosition || 'bottom',
+            onOpen: () => {
+              console.log('GLightbox opened for', containerId);
+            }
+          });
+          
+          console.log('GLightbox initialized successfully for', containerId, 'with global config');
+          
+        } catch (error) {
+          console.error('Error initializing GLightbox:', error);
+        }
+      } else {
+        console.error('GLightbox not loaded but lightbox is enabled');
+      }
+    }
+  }
+  
+  
+  function waitForLibraries() {
+    let attempts = 0;
+    const maxAttempts = 50;
+    
+    function check() {
+      attempts++;
+      
+      const macyReady = typeof Macy !== 'undefined';
+      const lightboxReady = !config.lightbox || typeof GLightbox !== 'undefined';
+      
+      if (macyReady && lightboxReady) {
+        initMasonryGallery();
+      } else if (attempts < maxAttempts) {
+        setTimeout(check, 100);
+      } else {
+        console.error('Timeout waiting for libraries. Macy:', macyReady, 'GLightbox:', lightboxReady);
+      }
+    }
+    
+    check();
+  }
+  
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', waitForLibraries);
+  } else {
+    setTimeout(waitForLibraries, 50);
+  }
+})();
+</script>
+<hr>
+<h2 id="personal-contribution">Personal contribution</h2>
+<ul>
+<li>Maths library (Vector2-3-4, Matrix4, Quaternions&hellip;) and its unit tests</li>
+<li>C++ callback and event system</li>
+<li>Global engine logic (main loop, scene management, time management)</li>
+<li>ECS (Entity Component System)</li>
+<li>Some basic components (Transform)</li>
+<li>Projects and assets management system</li>
+<li>Physics library wrapping and implementation</li>
+<li>Reflection and serialization system</li>
+<li>Hotreload system</li>
+<li>Editor inspector (generic widgets generation for user scripts + engine specific components wrapping)</li>
+<li>Physics based picking, gizmos, multiple viewports handling and scene free controller</li>
+<li>A great part of the game (concept, riddles)</li>
+</ul>
+
   </article>
 
   
@@ -951,7 +1352,7 @@
       <div class="nav-item">
         
           <a
-            href="/posts/turbo-engine/"
+            href="/posts/stellar-pulse/"
             class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
             <div>
               <div class="mb-3 flex items-center gap-3">
@@ -968,7 +1369,7 @@
 
               <h3
                 class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-lg leading-tight font-semibold transition-colors duration-200">
-                Turbo Engine
+                Stellar Pulse
               </h3>
             </div>
 
@@ -980,8 +1381,8 @@
     stroke="currentColor"
     viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
-              <time datetime="2019-06-13">
-                Jun 13
+              <time datetime="2019-03-28">
+                Mar 28
               </time>
             </div>
           </a>
@@ -992,7 +1393,7 @@
       <div class="nav-item">
         
           <a
-            href="/posts/poshon/"
+            href="/posts/lambos-tale/"
             class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
             <div>
               <div class="mb-3 flex items-center justify-end gap-3">
@@ -1009,14 +1410,14 @@
 
               <h3
                 class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-right text-lg leading-tight font-semibold transition-colors duration-200">
-                Poshon
+                Lambo&#39;s Tale
               </h3>
             </div>
 
             <div
               class="text-muted-foreground mt-auto flex items-center justify-end gap-2 text-xs">
-              <time datetime="2020-02-10">
-                Feb 10
+              <time datetime="2020-04-06">
+                Apr 06
               </time>
               
   <svg class="h-3 w-3"
@@ -1042,6 +1443,36 @@
 
 
 
+
+  <section class="related-posts mb-12">
+    
+    <div class="mb-6 flex items-center gap-3">
+      
+  <svg class="h-5 w-5"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+</svg>
+      <h2 class="text-foreground text-2xl font-bold">
+        Related Posts
+      </h2>
+    </div>
+
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+      
+        <article class="group">
+          <a href="/posts/stellar-pulse/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex items-center rounded-xl border p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none min-h-[120px]">
+              <h3 class="text-foreground group-hover:text-primary text-lg font-semibold leading-snug line-clamp-3 w-full">
+                Stellar Pulse
+              </h3>
+            </div>
+          </a>
+        </article>
+      
+    </div>
+  </section>
 
 
 
@@ -1345,7 +1776,12 @@
         aria-label="Table of Contents Navigation">
           
           <div id="toc-content">
-            <nav id="TableOfContents"></nav>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#personal-contribution">Personal contribution</a></li>
+  </ul>
+</nav>
           </div>
       </nav>
     </div>
