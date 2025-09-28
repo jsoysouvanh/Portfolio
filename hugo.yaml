@@ -140,9 +140,10 @@ params:
     description: ""
     avatar: "/images/avatar.svg"
     social:
-      - name: "About"
-        pageRef: /about
-        icon: about
+      # TODO: May uncomment at some point to add more relevant details about me... Maybe the logos of the companies I've worked for? 
+      # - name: "About me"
+      #   pageRef: /about
+      #   icon: about
       - name: "GitHub"
         url: "https://github.com/jsoysouvanh"
         icon: "github"

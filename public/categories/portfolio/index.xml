@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Julien Soysouvanh</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Julien Soysouvanh</description>
+    <title>Portfolio on Julien Soysouvanh</title>
+    <link>http://localhost:1313/categories/portfolio/</link>
+    <description>Recent content in Portfolio on Julien Soysouvanh</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h3 id=&#34;my-name-is-julien-im-a-french-game-programmer-based-in-japan&#34;&gt;My name is Julien, I&amp;rsquo;m a French game programmer based in Japan.&lt;/h3&gt;&#xA;&lt;h4 id=&#34;ill-be-sharing-here-some-of-my-works-and-gamedev-tips&#34;&gt;I&amp;rsquo;ll be sharing here some of my works and gamedev tips.&lt;/h4&gt;</description>
-    </item>
+    <lastBuildDate>Tue, 13 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lysfanga: The Time Shift Warrior</title>
       <link>http://localhost:1313/posts/lysfangha/</link>

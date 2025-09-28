@@ -3,8 +3,8 @@ title: "Lambo's Tale"
 slug: "lambos-tale"
 date: "2020-04-06"
 description: "2D Metroidvania game"
-tags: ["Unity", "C#", "Perforce", "School"]
-categories: ["Projects"]
+tags: ["Game", "Unity", "C#", "Perforce", "Student"]
+categories: ["Portfolio"]
 cover: "/LambosTale/LambosTaleHeader.png"
 showCoverInPost: false
 draft: false

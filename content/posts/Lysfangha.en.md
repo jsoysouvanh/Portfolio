@@ -3,8 +3,8 @@ title: "Lysfanga: The Time Shift Warrior"
 slug: "lysfangha"
 date: "2024-02-13"
 description: "3D Exploration game"
-tags: ["Unity", "C#", "Perforce", "Pro"]
-categories: ["Projects"]
+tags: ["Game", "Unity", "C#", "Perforce", "Pro"]
+categories: ["Portfolio"]
 cover: "/Lysfangha/logo.png"
 showCoverInPost: false
 draft: false
@@ -24,13 +24,13 @@ Rewind time to create clones of your past-selves, and fight with an army of your
 ## Personal contribution
 
 - Game framework
-- Some AIs behaviours（behaviour tree）
+- Some AI behaviours（behaviour tree）
 - Save system
 - Arenas gameflow and architecture
 - Enemies spawn system
 - Buff / debuff system
 - Level streaming system
-- Achievements system（Steamworks + Epic Online Services）
+- Achievement system（Steamworks + Epic Online Services）
 - Combat dynamic music
 - Optimization (pooling system...)
 - General debugging
