@@ -3,7 +3,7 @@ title: "Lysfanga: The Time Shift Warrior"
 slug: "lysfangha"
 date: "2024-02-13"
 description: "3D Exploration game"
-tags: ["Game", "Unity", "C#", "Perforce", "Pro"]
+tags: ["Game", "Unity", "Perforce", "Pro"]
 categories: ["Portfolio"]
 cover: "/Lysfangha/logo.png"
 showCoverInPost: false
