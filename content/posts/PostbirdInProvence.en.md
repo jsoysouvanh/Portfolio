@@ -3,7 +3,7 @@ title: "Postbird in Provence"
 slug: "postbird-in-provence"
 date: "2021-07-01"
 description: "Cute 3D exploration/delivery game"
-tags: ["Game", "Unity", "Perforce", "Nintendo Switch", "Student"]
+tags: ["Game", "Unity", "Nintendo Switch", "Student"]
 categories: ["Portfolio"]
 cover: "/Postbird/logo.png"
 showCoverInPost: false

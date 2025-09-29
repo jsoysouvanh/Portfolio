@@ -3,7 +3,7 @@ title: "Turbo Engine"
 slug: "turbo-engine"
 date: 2019-06-13
 description: "Dev of a 3D Game Engine with editor and game"
-tags: ["Game", "Engine", "C++", "Git", "Student"]
+tags: ["Game", "Engine", "C++", "Student"]
 categories: ["Portfolio"]
 cover: "/TurboEngine/logo.png"
 showCoverInPost: false

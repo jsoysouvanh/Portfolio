@@ -3,7 +3,7 @@ title: "Refureku"
 slug: "refureku"
 date: "2020-07-03"
 description: "C++17 dynamic reflection library"
-tags: ["Library", "C++", "Git", "Perso"]
+tags: ["Library", "C++", "Perso"]
 categories: ["Portfolio"]
 cover: "/Refureku/RefurekuLogo.png"
 showCoverInPost: false

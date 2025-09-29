@@ -3,7 +3,7 @@ title: "Lambo's Tale"
 slug: "lambos-tale"
 date: "2020-04-06"
 description: "2D Metroidvania game with procedurally generated levels"
-tags: ["Game", "Unity", "Perforce", "Student"]
+tags: ["Game", "Unity", "Student"]
 categories: ["Portfolio"]
 cover: "/LambosTale/LambosTaleHeader.png"
 showCoverInPost: false
