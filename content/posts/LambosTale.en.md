@@ -2,7 +2,7 @@
 title: "Lambo's Tale"
 slug: "lambos-tale"
 date: "2020-04-06"
-description: "2D Metroidvania game"
+description: "2D Metroidvania game with procedurally generated levels"
 tags: ["Game", "Unity", "Perforce", "Student"]
 categories: ["Portfolio"]
 cover: "/LambosTale/LambosTaleHeader.png"
@@ -34,7 +34,7 @@ draft: false
 
 ## Personal contribution
 
-- Procedural generation level system
+- Level procedural generation system
 - Enemies + AI
 - Redaction of a part of the TDD (Technical Design Document)
 - Camera

@@ -16,7 +16,7 @@ draft: false
 - **Tech stack:** Unreal Engine 4, C++, Visual Studio 2017, Git, Trello, Slack
 - **Platforms:** Windows (Oculus Rift)
 
-Stellar Pulse is a VR rythm shooting game in which the player controls two spaceships and makes them go through rings following the beat.
+**Stellar Pulse** is a VR rythm shooting game in which the player controls two spaceships and makes them go through rings following the beat.
 
 {{<youtube id="Kn0CMk3IwdQ">}}
 
