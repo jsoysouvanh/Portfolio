@@ -119,11 +119,11 @@ menus:
 
 params:
   # Basic site info with SEO
-  description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-  keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-  defaultAuthor: "Hugo Narrow"
+  description: "Developer blog of Julien Soysouvanh."
+  keywords: ["Developer", "Programmer", "Game"]
+  defaultAuthor: "Julien SOYSOUVANH"
   language: "en-US"
-  shortName: "Hugo Narrow"  # PWA
+  shortName: "Julien Soysouvanh's blog"  # PWA
   images:
   - "/images/og-default.avif"
 
