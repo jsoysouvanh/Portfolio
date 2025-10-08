@@ -23,7 +23,7 @@ justified_gallery:
 - **Tech stack:** C++17, Visual Studio 2017, Git, Trello, Python 3.7, Qt, GLFW, PhysX, FMOD, nlohmann json, OpenGL, Freetype, stb_image, Glew, Autodesk FBX SDK, TinyObjLoader, SOL2, RuntimeCompiledCPlusPlus
 - **Platforms:** Windows
 
-The **Turbo Engine** is a 3D game engine 3 amazing teammates and I developed as third year students. We also developed an editor, and made a small game with it.
+The **Turbo Engine** is a 3D game engine 3 amazing teammates and I developed as second year students. We also developed an editor, and made a small game with it.
 
 {{< youtube id="foICXHojFiI" >}}
 
